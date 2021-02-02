@@ -8,7 +8,7 @@ zip everything in the folder
 
 Create
 ```
-aws lambda create-function --function-name dev-test-aws-zip-pipe --zip-file fileb://zipper-lamda.zip --region us-east-1  --handler index.handler --runtime nodejs12.x --timeout 900  --memory-size 1024 --role arn:aws:iam::340721671329:role/pieter-testing --profile default
+aws lambda create-function --function-name dev-test-aws-zip-pipe --zip-file fileb://zipper-lamda.zip --region us-east-1  --handler index.handler --runtime nodejs12.x --timeout 900 --memory-size 1024 --role <put arn for role here> --profile default
 ```
 
 
